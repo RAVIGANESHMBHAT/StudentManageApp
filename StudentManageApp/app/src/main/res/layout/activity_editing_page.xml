@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".editing_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:onClick="back"
+                android:text="BACK"
+                android:textColor="#000000" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crypto"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/crypt1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Classes held"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/crypt2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Classes attended"
+            android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cg"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/cg1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/cg2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sscd"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/sscd1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/sscd2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/os"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/os1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/os2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/or1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/or2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pap"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/pap1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/pap2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ssoslab"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/ssosl1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/ssosl2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cglab"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/cgl1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes held"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/cgl2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Classes attended"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/submitt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textColor="#000000"
+            android:onClick="submit"
+            android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>

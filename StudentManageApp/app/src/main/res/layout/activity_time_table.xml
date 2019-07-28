@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".time_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/mon"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:onClick="monday"
+            android:text="Monday"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/tue"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="tuesday"
+            android:text="Tuesday"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/wed"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="wednesday"
+            android:text="Wednesday"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/thu"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:onClick="thursday"
+            android:text="Thursday"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/fri"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="friday"
+            android:text="Friday"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/sat"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="saturday"
+            android:text="Saturday"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="---------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/day_of_week"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="   Monday"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="----------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="8:30 - 9:30"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cgg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="9:30 - 10:30"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/papp"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="10:50-11:45"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/oss"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="11:45-12:45"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cry"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="1:45 - 2:45"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sslabb"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="2:45 - 3:45"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sslabb"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff0000">
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="3:45 - 4:45"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sslabb"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

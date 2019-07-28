@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/timetbl"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:onClick="timetable"
+                android:text="TIMETABLE"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="200dp"
+                android:onClick="editing"
+                android:text="Edit" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/crypto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="2"
+            android:text="@string/crypto"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/crypto1"
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/crypto2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/crypto3"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/crypto4"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/crypto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/cg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cg"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cg1"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/cg2"
+                android:layout_width="413dp"
+                android:layout_height="wrap_content"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cg3"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/cg4"
+                android:layout_width="541dp"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/cg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sscd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/sscd"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sscd1"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sscd2"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sscd3"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sscd4"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/sscd5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/os"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/os"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/os1"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/os2"
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/os3"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/os4"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/os5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/or"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/or1"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/or2"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/or3"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/or4"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/or5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/pap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/pap"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pap1"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/pap2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pap3"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/pap4"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/pap5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/ssosl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ssoslab"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ssosl1"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ssosl2"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ssosl3"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ssosl4"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/ssosl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/cgl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/cglab"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cgl1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes held: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/cgl2"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Classes attended: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cgl3"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage  : "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/cgl4"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff3f88"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/cgl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Note: "
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Student App</string>
+    <string name="crypto">Cryptography,Network Security and Cyber Law 15CS61</string>
+    <string name="cg">Computer Graphics and Visualization       15CS62</string>
+    <string name="sscd">System Software and Compiler Design 15CS63</string>
+    <string name="os">Operating Systems 15CS64</string>
+    <string name="or">Operations Research 15CS653</string>
+    <string name="pap">Python Application Programming 15CS664</string>
+    <string name="ssoslab">System Software and Operating System Laboratory 15CSL67</string>
+    <string name="cglab">Computer Graphics Laboratory with Mini Project 15CSL68</string>
+    <string name="cry">Cryptography,Network Security</string>
+    <string name="cgg">Computer Graphics</string>
+    <string name="sscdd">System Software and C D</string>
+    <string name="oss">Operating Systems</string>
+    <string name="orr">Operations Research</string>
+    <string name="papp">Python Application Program</string>
+    <string name="sslabb">System Software Laboratory</string>
+    <string name="cglabb">Computer Graphics Laboratory</string>
+    <string name="apti">Aptitude</string>
+    <string name="library">Library</string>
+
+</resources>
